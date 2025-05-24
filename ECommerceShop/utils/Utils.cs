@@ -1,7 +1,7 @@
 public class PasswordService
 {
     // Hash the password
-    public string HashPassword(string password)
+    public virtual string HashPassword(string password)
     {
         if (string.IsNullOrEmpty(password))
         {
@@ -12,7 +12,7 @@ public class PasswordService
     }
 
     // Verify the password
-    public bool VerifyPassword(string password, string storedHash)
+    public virtual bool VerifyPassword(string password, string storedHash)
     {
         if (string.IsNullOrEmpty(password) || string.IsNullOrEmpty(storedHash))
         {

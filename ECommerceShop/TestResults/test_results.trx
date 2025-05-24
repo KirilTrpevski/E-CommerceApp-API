@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="1bde35ce-64a7-47a8-94e7-e71bdba61cb9" name="kiril@DESKTOP-9ESN4LP 2025-04-23 15:22:29" runUser="DESKTOP-9ESN4LP\kiril" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-04-23T15:22:29.2533800+02:00" queuing="2025-04-23T15:22:29.2533802+02:00" start="2025-04-23T15:22:28.0315513+02:00" finish="2025-04-23T15:22:29.2573246+02:00" />
+  <TestSettings name="default" id="f2e0fd16-5e39-48ec-b00f-3f555c5922bc">
+    <Deployment runDeploymentRoot="kiril_DESKTOP-9ESN4LP_2025-04-23_15_22_29" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4bafb46a-7692-4467-af65-d2944792dbdd" testId="4033cafc-bc00-4c02-c54e-535d7f3c8807" testName="ECommerceShop.Tests.Controllers.AuthControllerTests.Signup_WithValidData_ShouldReturnOk" computerName="DESKTOP-9ESN4LP" duration="00:00:00.0073263" startTime="2025-04-23T15:22:29.1401662+02:00" endTime="2025-04-23T15:22:29.1474176+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bafb46a-7692-4467-af65-d2944792dbdd" />
+    <UnitTestResult executionId="911e320a-2bdf-481f-9129-6f452df0db41" testId="837acace-4ddd-d09d-82b9-07d16eb388d6" testName="ECommerceShop.Tests.Controllers.AuthControllerTests.Login_WithIncorrectPassword_ShouldReturnUnauthorized" computerName="DESKTOP-9ESN4LP" duration="00:00:00.5199014" startTime="2025-04-23T15:22:28.5580890+02:00" endTime="2025-04-23T15:22:29.0819293+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="911e320a-2bdf-481f-9129-6f452df0db41" />
+    <UnitTestResult executionId="d2916ded-f8be-4ca8-8569-c1a27ad50fe8" testId="61ab939a-3f1f-0293-1977-ee2b4d32a4ea" testName="ECommerceShop.Tests.Controllers.AuthControllerTests.Login_WithValidCredentials_ShouldReturnOk" computerName="DESKTOP-9ESN4LP" duration="00:00:00.0571818" startTime="2025-04-23T15:22:29.0820882+02:00" endTime="2025-04-23T15:22:29.1391950+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2916ded-f8be-4ca8-8569-c1a27ad50fe8" />
+    <UnitTestResult executionId="a707eeea-d19b-41b0-aa4b-a82d6fb3307b" testId="5bd84be2-9d1f-0e94-b596-0c8501ea297a" testName="ECommerceShop.Tests.Controllers.AuthControllerTests.Login_WithInvalidUsername_ShouldReturnUnauthorized" computerName="DESKTOP-9ESN4LP" duration="00:00:00.0007522" startTime="2025-04-23T15:22:29.1395563+02:00" endTime="2025-04-23T15:22:29.1399933+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a707eeea-d19b-41b0-aa4b-a82d6fb3307b" />
+    <UnitTestResult executionId="56fd58bb-bf64-4395-85fc-1c497ab741f6" testId="3288f264-d572-5cb3-dfe3-f3f7b366cb11" testName="ECommerceShop.Tests.Controllers.UsersControllerTests.UpdateUser_InvalidData_ShouldReturnBadRequest" computerName="DESKTOP-9ESN4LP" duration="00:00:00.0004808" startTime="2025-04-23T15:22:29.0811302+02:00" endTime="2025-04-23T15:22:29.0811890+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56fd58bb-bf64-4395-85fc-1c497ab741f6" />
+    <UnitTestResult executionId="91f2e077-9d0d-4bc8-b829-2358fdad6c20" testId="d97b1172-c76d-0886-e253-c7211e995389" testName="ECommerceShop.Tests.Controllers.UsersControllerTests.GetUser_InvalidId_ShouldReturnNotFound" computerName="DESKTOP-9ESN4LP" duration="00:00:00.4872950" startTime="2025-04-23T15:22:28.5569228+02:00" endTime="2025-04-23T15:22:29.0487460+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91f2e077-9d0d-4bc8-b829-2358fdad6c20" />
+    <UnitTestResult executionId="74ca5682-1442-425d-b180-f754f6339e9d" testId="59838560-db4a-2bbb-87ed-ed2f1de6892e" testName="ECommerceShop.Tests.Controllers.UsersControllerTests.UpdateUser_ValidData_ShouldReturnOkWithUpdatedUser" computerName="DESKTOP-9ESN4LP" duration="00:00:00.0081957" startTime="2025-04-23T15:22:29.0813346+02:00" endTime="2025-04-23T15:22:29.0892426+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74ca5682-1442-425d-b180-f754f6339e9d" />
+    <UnitTestResult executionId="e9dda3ce-2314-445a-965d-9e1e363356c6" testId="e323a9d1-cbdc-e000-40f9-ae9ce555d706" testName="ECommerceShop.Tests.Controllers.UsersControllerTests.UpdateUser_UserNotFound_ShouldReturnNotFound" computerName="DESKTOP-9ESN4LP" duration="00:00:00.0315159" startTime="2025-04-23T15:22:29.0570585+02:00" endTime="2025-04-23T15:22:29.0804794+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9dda3ce-2314-445a-965d-9e1e363356c6" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ECommerceShop.Tests.Controllers.UsersControllerTests.UpdateUser_UserNotFound_ShouldReturnNotFound" storage="g:\diplomska\ecommerceshop\ecommerceshop\bin\debug\net8.0\ecommerceshop.dll" id="e323a9d1-cbdc-e000-40f9-ae9ce555d706">
+      <Execution id="e9dda3ce-2314-445a-965d-9e1e363356c6" />
+      <TestMethod codeBase="G:\diplomska\ECommerceShop\ECommerceShop\bin\Debug\net8.0\ECommerceShop.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ECommerceShop.Tests.Controllers.UsersControllerTests" name="UpdateUser_UserNotFound_ShouldReturnNotFound" />
+    </UnitTest>
+    <UnitTest name="ECommerceShop.Tests.Controllers.UsersControllerTests.GetUser_InvalidId_ShouldReturnNotFound" storage="g:\diplomska\ecommerceshop\ecommerceshop\bin\debug\net8.0\ecommerceshop.dll" id="d97b1172-c76d-0886-e253-c7211e995389">
+      <Execution id="91f2e077-9d0d-4bc8-b829-2358fdad6c20" />
+      <TestMethod codeBase="G:\diplomska\ECommerceShop\ECommerceShop\bin\Debug\net8.0\ECommerceShop.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ECommerceShop.Tests.Controllers.UsersControllerTests" name="GetUser_InvalidId_ShouldReturnNotFound" />
+    </UnitTest>
+    <UnitTest name="ECommerceShop.Tests.Controllers.AuthControllerTests.Login_WithValidCredentials_ShouldReturnOk" storage="g:\diplomska\ecommerceshop\ecommerceshop\bin\debug\net8.0\ecommerceshop.dll" id="61ab939a-3f1f-0293-1977-ee2b4d32a4ea">
+      <Execution id="d2916ded-f8be-4ca8-8569-c1a27ad50fe8" />
+      <TestMethod codeBase="G:\diplomska\ECommerceShop\ECommerceShop\bin\Debug\net8.0\ECommerceShop.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ECommerceShop.Tests.Controllers.AuthControllerTests" name="Login_WithValidCredentials_ShouldReturnOk" />
+    </UnitTest>
+    <UnitTest name="ECommerceShop.Tests.Controllers.UsersControllerTests.UpdateUser_ValidData_ShouldReturnOkWithUpdatedUser" storage="g:\diplomska\ecommerceshop\ecommerceshop\bin\debug\net8.0\ecommerceshop.dll" id="59838560-db4a-2bbb-87ed-ed2f1de6892e">
+      <Execution id="74ca5682-1442-425d-b180-f754f6339e9d" />
+      <TestMethod codeBase="G:\diplomska\ECommerceShop\ECommerceShop\bin\Debug\net8.0\ECommerceShop.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ECommerceShop.Tests.Controllers.UsersControllerTests" name="UpdateUser_ValidData_ShouldReturnOkWithUpdatedUser" />
+    </UnitTest>
+    <UnitTest name="ECommerceShop.Tests.Controllers.AuthControllerTests.Login_WithIncorrectPassword_ShouldReturnUnauthorized" storage="g:\diplomska\ecommerceshop\ecommerceshop\bin\debug\net8.0\ecommerceshop.dll" id="837acace-4ddd-d09d-82b9-07d16eb388d6">
+      <Execution id="911e320a-2bdf-481f-9129-6f452df0db41" />
+      <TestMethod codeBase="G:\diplomska\ECommerceShop\ECommerceShop\bin\Debug\net8.0\ECommerceShop.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ECommerceShop.Tests.Controllers.AuthControllerTests" name="Login_WithIncorrectPassword_ShouldReturnUnauthorized" />
+    </UnitTest>
+    <UnitTest name="ECommerceShop.Tests.Controllers.UsersControllerTests.UpdateUser_InvalidData_ShouldReturnBadRequest" storage="g:\diplomska\ecommerceshop\ecommerceshop\bin\debug\net8.0\ecommerceshop.dll" id="3288f264-d572-5cb3-dfe3-f3f7b366cb11">
+      <Execution id="56fd58bb-bf64-4395-85fc-1c497ab741f6" />
+      <TestMethod codeBase="G:\diplomska\ECommerceShop\ECommerceShop\bin\Debug\net8.0\ECommerceShop.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ECommerceShop.Tests.Controllers.UsersControllerTests" name="UpdateUser_InvalidData_ShouldReturnBadRequest" />
+    </UnitTest>
+    <UnitTest name="ECommerceShop.Tests.Controllers.AuthControllerTests.Login_WithInvalidUsername_ShouldReturnUnauthorized" storage="g:\diplomska\ecommerceshop\ecommerceshop\bin\debug\net8.0\ecommerceshop.dll" id="5bd84be2-9d1f-0e94-b596-0c8501ea297a">
+      <Execution id="a707eeea-d19b-41b0-aa4b-a82d6fb3307b" />
+      <TestMethod codeBase="G:\diplomska\ECommerceShop\ECommerceShop\bin\Debug\net8.0\ECommerceShop.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ECommerceShop.Tests.Controllers.AuthControllerTests" name="Login_WithInvalidUsername_ShouldReturnUnauthorized" />
+    </UnitTest>
+    <UnitTest name="ECommerceShop.Tests.Controllers.AuthControllerTests.Signup_WithValidData_ShouldReturnOk" storage="g:\diplomska\ecommerceshop\ecommerceshop\bin\debug\net8.0\ecommerceshop.dll" id="4033cafc-bc00-4c02-c54e-535d7f3c8807">
+      <Execution id="4bafb46a-7692-4467-af65-d2944792dbdd" />
+      <TestMethod codeBase="G:\diplomska\ECommerceShop\ECommerceShop\bin\Debug\net8.0\ECommerceShop.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ECommerceShop.Tests.Controllers.AuthControllerTests" name="Signup_WithValidData_ShouldReturnOk" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="4033cafc-bc00-4c02-c54e-535d7f3c8807" executionId="4bafb46a-7692-4467-af65-d2944792dbdd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="837acace-4ddd-d09d-82b9-07d16eb388d6" executionId="911e320a-2bdf-481f-9129-6f452df0db41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61ab939a-3f1f-0293-1977-ee2b4d32a4ea" executionId="d2916ded-f8be-4ca8-8569-c1a27ad50fe8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5bd84be2-9d1f-0e94-b596-0c8501ea297a" executionId="a707eeea-d19b-41b0-aa4b-a82d6fb3307b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3288f264-d572-5cb3-dfe3-f3f7b366cb11" executionId="56fd58bb-bf64-4395-85fc-1c497ab741f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d97b1172-c76d-0886-e253-c7211e995389" executionId="91f2e077-9d0d-4bc8-b829-2358fdad6c20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59838560-db4a-2bbb-87ed-ed2f1de6892e" executionId="74ca5682-1442-425d-b180-f754f6339e9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e323a9d1-cbdc-e000-40f9-ae9ce555d706" executionId="e9dda3ce-2314-445a-965d-9e1e363356c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="8" passed="8" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.0.2+dd36e86129 (64-bit .NET 8.0.11)&#xD;
+[xUnit.net 00:00:00.08]   Discovering: ECommerceShop&#xD;
+[xUnit.net 00:00:00.12]   Discovered:  ECommerceShop&#xD;
+[xUnit.net 00:00:00.14]   Starting:    ECommerceShop&#xD;
+[xUnit.net 00:00:00.75]   Finished:    ECommerceShop&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -79,50 +79,6 @@ public class RecommendationService
 
         return similarity;
     }
-    //     public double CalculateCosineSimilarity(Guid productA, Guid productB)
-    //     {
-    //         var interactionsA = _context.ProductInteractions
-    //             .Where(pi => pi.ProductId == productA)
-    //             .ToList();
-
-    //         var interactionsB = _context.ProductInteractions
-    //             .Where(pi => pi.ProductId == productB)
-    //             .ToList();
-
-    //         // Create dictionaries for quick lookup
-    //         var usersA = interactionsA.ToDictionary(pi => pi.UserId, pi => pi.InteractionType);
-    //         var usersB = interactionsB.ToDictionary(pi => pi.UserId, pi => pi.InteractionType);
-
-    //         // Find common users
-    //         var commonUsers = usersA.Keys.Intersect(usersB.Keys).ToList();
-
-    //         Console.WriteLine($"Common users for product {productA} and {productB}: {commonUsers.Count}");
-
-    //         if (commonUsers.Count == 0)
-    //             return 0; // No common users means no similarity
-
-    //         // Calculate Cosine Similarity
-    //         double dotProduct = 0;
-    //         double magnitudeA = 0;
-    //         double magnitudeB = 0;
-
-    //         foreach (var userId in commonUsers)
-    //         {
-    //             var interactionA = usersA[userId] == "purchase" ? 1 : 0; // Treat "purchase" as 1, other interactions as 0
-    //             var interactionB = usersB[userId] == "purchase" ? 1 : 0;
-
-    //             dotProduct += interactionA * interactionB;
-    //             magnitudeA += interactionA * interactionA;
-    //             magnitudeB += interactionB * interactionB;
-    //         }
-
-    //         // Compute the final cosine similarity
-    //         double similarity = dotProduct / (Math.Sqrt(magnitudeA) * Math.Sqrt(magnitudeB));
-
-    //         Console.WriteLine($"Similarity between product {productA} and {productB}: {similarity}");
-
-    //         return similarity;
-    //     }
 
     // Recommend products to a user based on item similarity
     public async Task<List<Product>> GetRecommendedProductsAsync(Guid userId)
