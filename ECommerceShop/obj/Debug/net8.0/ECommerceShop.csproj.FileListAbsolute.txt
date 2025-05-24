@@ -415,4 +415,3 @@ G:\diplomska\ECommerceShop\ECommerceShop\obj\Debug\net8.0\refint\ECommerceShop.d
 G:\diplomska\ECommerceShop\ECommerceShop\obj\Debug\net8.0\ECommerceShop.pdb
 G:\diplomska\ECommerceShop\ECommerceShop\obj\Debug\net8.0\ECommerceShop.genruntimeconfig.cache
 G:\diplomska\ECommerceShop\ECommerceShop\obj\Debug\net8.0\ref\ECommerceShop.dll
-G:\diplomska\ECommerceShop\ECommerceShop\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
